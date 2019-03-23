@@ -1,6 +1,7 @@
-
+body {
+    text-align: center;
+}
 .modal {
-    visibility: hidden;
     position: fixed;
     z-index: 1;
     padding-top: 100px;
@@ -11,6 +12,8 @@
     overflow: auto;
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.4);
+    visibility: hidden;
+    transform: scale(1.1);
     transition: visability 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
         
 }
@@ -41,5 +44,5 @@
     opacity: 1;
     visibility: visible;
     transform: scale(1.0);
-    transition: visibilty 0s linear 0s, opactiy 0,25s 0s, transform 0.25s;
+    transition: visibilty 0s linear 0s, opactiy 0.25s 0s, transform 0.25s;
 }
