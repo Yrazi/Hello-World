@@ -1,2 +1,2 @@
-# Hello World - __My First Code__
+# Hello World - My First Code
 [*Demo*](https://yrazi.github.io/Hello-World/)
